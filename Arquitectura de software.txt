@@ -1,0 +1,149 @@
+Arquitectura de software.
+
+Especificacion de requerimiento del sistema (SRS).
+Es razonar como severía el sistema, y como se vería la arquitectura.
+
+Primero es una arquitectura de software.
+Disseño.
+Implementación.
+Verificacion.
+
+Los sistemas complejos estan compuestos de subsistema e interactua bajo el control del diseño del sistema.
+Subsisyema que se compone el sistema.
+Interfaces.
+¿Cuales son los componentes principales?
+
+Estructura.
+Organización.(Como se relacionan)
+
+Una arquitectura de software de un sistema is la estructura o estructuras del sistema.
+Importancia.
+Vnetajas de diseño y documentar.
+-Comunicación entre stakeholders.
+
+Que afecta.
+rendimeinto.
+seguridad.
+disponiblilidad.
+manteibilidad.
+Comprencibilidad es lo más importante.
+
+La estructura es la forma que quiente los elementos  en la arquitectura (Piramidad, red, arbol, etc).
+Estilo indica que la forma es repetitiva de muchas formas y se genera de muchos estilos.
+Patron de la esctructura forma el estilo arquitectonico.
+Ejemplo: El estilo de la ropa, peinados.
+
+Conflicto entre soluciones.
+El sitema debe ser "muy" performante y "muy" mantenible.
+¿Cuale es el conflicto al momento de elegir ese estilo?
+Seguir una estructura.
+¿Que tan dificil es modificar ese estilo?
+
+Patrones de software.
+Proposito.
+-Comparte una solucion probada.
+-Ampliamente aplicable.
+-Un problema particular de diseño.
+-El patron se presenta en forma estandar.
+
+Cinco piezas.
+Nombre.
+contexto.
+problema.
+solucion
+Consecuencia(positiva y negativa).
+
+Los patrones de diseño se agrupan en tres.
+Estilo arquitectonico.
+Patron de diseño-
+Idiomas.
+
+ESTILO ARQUITECTONICO.
+Expresa un esquema de organización estructural para sistema de software.(Tiene una forma y como esta compuesto).
+Provee un conjuto de tipos de elementos predefinidos(Como llamar esos tipos y que esten asociados y responsabilidad).
+Incluye reglas y guías para organizar las relaciones entre ellos.
+
+Ejemplo:
+Se habla de estilo deportivo.
+¿Como sería su estructura?
+Short, Pants, Tenis, Gorra (Esto es definir un elemento predefinido).
+La responsabilida es si se habla de PANTS(Camisa, gorra etc).
+
+Un patron de diseño:
+Provee un esquema que define los elementos del sistema de software.
+Describe una estructura currente de los elementos.
+
+IDIOMAS:
+Es un patron de bajo  nivel, especificado para un lenguaje.
+Como se implementa.
+
+BENEFICIOS DE ESTILOS.
+
+PERMITE SELECCIONAR UNA SOLUCION.
+Al basar la arquitectura en estilo que son conocidos las personas entenden más facilmente.
+
+¿Cual es la regla de la comida mexican?
+Los ingredeinetes principales a usar: chile, maiz, frijol.
+Ejemplo:
+Comida china:
+Arroz.
+
+Comida Europea:
+Trigo.
+
+¿Que importancia tiene?
+El maiz, frijol, chile.
+
+¿Como se define los principios organizativos del sistema?
+Comida mexicana.
+-Tacoas.
+-Tortas.
+-Chiles en ahogada.
+
+Formas de uso de los estilos.
+
+SOLUCION PARA EL DISEÑO DEL SISTEM.
+Algunos estilos sirven.
+
+Inspiran una solucion relacional.
+Ningun estilo sirve.
+ENTENDER PROBLEMAS DE SOLUCION CIERTOS ESTILOS PUEDEN LLEVAR
+A ENTEDNER,
+
+ALGUNOS ESTILOS:
+Dato compartido.
+Cliente-servidor.
+capas jerarquicas.
+descomposicion Orientada a Objetos.
+Tubos y Filtros.
+Modelos de Contral.
+-Control Basado en Eventos.
+-Publicar-Suscribir.
+Arquitectura de Sistema Distribuido.
+-Middleware.
+-Peer-to-Peer.
+
+Datos compartidos:
+Comparten datos, hay un almacen central de datos y conjuntos de componentes.
+Interaccion.
+Multiples accesos.
+
+Ventajas y desventajas.
+No se trasmiten datos de un componente.
+Los subsistema debe estar de acurdo en el modelo de datos.
+Los componentes que prodeucen datos.
+Actividad como respaldos.
+
+
+¿Cual es la diferencia de un cliente y un servidor?
+
+
+1-Cliente ----- 2-INTERNET ------ 3-Servidor ------- 4- Proceso(Programa en ejecución)
+                                                       -Esta compuesto de varios objetos y los objetos hacen ditintas funciones.
+
+El cliente se conecta a internet y se conecta a un servidor.
+El cliente solicita un servicio este se encuentra dentro de un objeto. Y los que interactuan son los objetos.
+
+
+
+
